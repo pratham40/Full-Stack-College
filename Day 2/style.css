@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.nav-bar{
+    margin: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.image{
+    width: 100px;
+}
+.image img{
+    width: 100%;
+}
+.nav-item{
+    gap: 30px;
+    display: flex;
+    
+}
+.items{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Games{
+    border-right: 1px solid rgb(88, 81, 81);
+}
+.button{
+    border: 1px solid #6FA5DB;
+    width: max-content;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: 
+    rgb(0, 65, 130);
+    padding: 7px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.flex{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex img{
+    object-fit: cover;
+}
